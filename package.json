@@ -16,6 +16,7 @@
   "author": "Edrees Jalili",
   "license": "ISC",
   "devDependencies": {
+    "@angular/cli": "^9.0.1",
     "@typescript-eslint/eslint-plugin": "^2.19.0",
     "@typescript-eslint/parser": "^2.19.0",
     "concurrently": "^5.0.2",
