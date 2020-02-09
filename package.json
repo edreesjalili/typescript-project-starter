@@ -1,0 +1,27 @@
+{
+  "name": "ng-pouch-express-ts-starter",
+  "version": "0.1.0",
+  "description": "Project starter for unified typescript code bases",
+  "scripts": {
+    "start": "concurrently --kill-others npm:start:*",
+    "start:db": "pouchdb-server --config db.config.json",
+    "start:ui": "cd ui && npm run serve",
+    "start:server": "cd server && npm run start:dev",
+    "db:ui": "open http://127.0.0.1:5984/_utils/",
+    "install": "concurrently npm:install:*",
+    "install:ui": "cd ui && npm i",
+    "install:server": "cd server && npm i"
+  },
+  "keywords": [],
+  "author": "Edrees Jalili",
+  "license": "ISC",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.19.0",
+    "@typescript-eslint/parser": "^2.19.0",
+    "concurrently": "^5.0.2",
+    "eslint": "^6.8.0"
+  },
+  "dependencies": {
+    "pouchdb-server": "^4.2.0"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "log": {
+    "level": "debug",
+    "file": "db.log"
+  },
+  "no-stdout-logs": true,
+  "database_dir": "./db",
+  "couchdb": {
+    "uuid": "8405c1e6-93ba-40f6-85f7-bf10ed525093"
+  }
+}
