@@ -5,7 +5,7 @@
   "scripts": {
     "start": "concurrently --kill-others npm:start:*",
     "start:db": "pouchdb-server --config db.config.json",
-    "start:ui": "cd ui && npm run serve",
+    "start:ui": "cd ui && npm start",
     "start:server": "cd server && npm run start:dev",
     "db:ui": "open http://127.0.0.1:5984/_utils/",
     "install": "concurrently npm:install:*",
