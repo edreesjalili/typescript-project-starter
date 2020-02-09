@@ -11,6 +11,10 @@
     "prettier/@typescript-eslint"
   ],
   "rules": {
+    "max-line-length": [
+      true,
+      120
+    ],
     "@typescript-eslint/array-type": ["error", { "default": "array-simple" }],
     "@typescript-eslint/explicit-member-accessibility": ["off"],
     "@typescript-eslint/no-non-null-assertion": ["off"],
